@@ -1,9 +1,16 @@
+@media (max-width: 768px) {
+  .logo {
+    display: block; }
+  .nav > li {
+    float: none;
+    text-align: center; } }
+
 .bg-img {
   background: url("../img/background.png");
-  width: 100%;
   height: 670px;
-  background-position: center top;
-  background-size: 100% auto; }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .menu-main {
   margin-top: 15px;
@@ -28,7 +35,28 @@ img {
 
 .logo {
   display: inline-block;
-  margin-top: 15px; }
+  margin-top: 15px;
+  margin-right: 286px; }
 
 .logo a {
   display: block; }
+
+.navbar {
+  margin: auto;
+  width: 50%;
+  position: static; }
+
+.nav {
+  display: inline-block;
+  position: absolute; }
+
+.nav > li {
+  float: left;
+  margin-top: 19px; }
+
+@media (max-width: 768px) {
+  .logo {
+    display: block; }
+  .nav > li {
+    float: none;
+    text-align: center; } }
