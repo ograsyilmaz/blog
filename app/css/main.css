@@ -17,21 +17,8 @@
   margin: auto;
   width: 50%; }
 
-.menu-main ul {
-  list-style: none;
-  margin-top: 32px;
-  display: inline-block;
-  position: absolute; }
-
 img {
   vertical-align: baseline; }
-
-.menu-main ul li {
-  float: left;
-  margin-left: 36px; }
-
-.menu-main ul li a {
-  display: block; }
 
 .logo {
   display: inline-block;
@@ -54,9 +41,30 @@ img {
   float: left;
   margin-top: 19px; }
 
-@media (max-width: 768px) {
-  .logo {
-    display: block; }
-  .nav > li {
-    float: none;
-    text-align: center; } }
+.header-content {
+  margin-top: 183px; }
+  .header-content .header-brand {
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffff; }
+  .header-content .header-separator hr {
+    width: 50px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #00e0d0;
+    padding: 0; }
+  .header-content .header-slogon {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px; }

@@ -1,19 +1,10 @@
 .bg-img{
 background: url($url);
-//  width: 100%;
  height:670px;
-//  background-position: center top;
-//  background-size: 100% auto;
-
-
-
-    // height: 100%; 
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
-
 .menu-main{
    
     margin-top: 15px;
@@ -22,23 +13,9 @@ background: url($url);
 }
 
 
-.menu-main ul{
-    list-style: none;
-    margin-top: 32px;
-    display: inline-block;
-    position: absolute;
-
-}
  img{
     vertical-align: baseline;
  }
-.menu-main ul li{
-    float: left;
-    margin-left: 36px;
-}
-.menu-main ul li a{
-    display: block;
-}
 
 
 .logo{
@@ -51,20 +28,6 @@ background: url($url);
 .logo a{
     display: block;
 }
-
-// @media screen and (max-width: 480px)  {
-//     .menu-main ul{
-//       position: relative;
-//     }
-//     .menu-main ul li{
-//         float: none;
-//         margin-left: 0;
-//     }
-// }
-
-
-
-
 .navbar {
 
     margin: auto;
@@ -86,15 +49,43 @@ background: url($url);
     margin-top: 19px;
 }
 
+/// Header Content
 
-@media (max-width: 768px) { 
+.header-content{
+    margin-top: 183px;
+    .header-brand{
+        font-family: PlayfairDisplay;
+        font-size: 32px;
+        font-weight: 900;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .header-separator{
+        hr{
+        width: 50px;    
+        margin-top: 25px;
+        margin-bottom: 0;
+         display: block;
+         height: 1px;
+         border: 0;
+         border-top: 1px solid #00e0d0;
+          padding: 0; 
+        }
+    }
 
-    .logo{
-        display: block;
-          }
-          .nav > li {
-              float: none;
-              text-align: center;
-          }
+.header-slogon{
+    
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
 
- }
+
+}
+
